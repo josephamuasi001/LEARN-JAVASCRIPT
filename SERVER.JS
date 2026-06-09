@@ -32,13 +32,29 @@
 
 
 // Arrays
-const products = [
-    "iPhone 16",
-    "HP Laptop",
-    "Samsung Tablet"
-]
+// const products = [
+//     "iPhone 16",
+//     "HP Laptop",
+//     "Samsung Tablet"
+// ]
 
-console.log(products)
-products.push("Airpods Pro")
-console.log(products.length)
-console.log(products.includes("HP Laptop"))
+// console.log(products[0])
+
+// products.push("Airpods Pro")
+// console.log(products.length)
+// console.log(products.includes("HP Laptop"))
+
+
+//Object
+// const customer = {
+//     name: "Roland",
+//     age: 24,
+//     isMember: true
+// }
+
+// console.log(customer.name)
+// customer.age = 25
+// customer.city = "Accra"
+// console.log(customer)
+
+//
