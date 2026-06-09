@@ -78,7 +78,15 @@
 // }
 
 //ES6 Template Literals
-const customerName = "Roland";
-const product = "HP Laptop";
+// const customerName = "Roland";
+// const product = "HP Laptop";
 
-console.log(`${customerName} purchased ${product}`)
+// console.log(`${customerName} purchased ${product}`)
+
+
+//Arrow Functions
+const subtract = (a, b) => {
+    return a-b;
+}
+const result = subtract(15,4)
+console.log(result)
