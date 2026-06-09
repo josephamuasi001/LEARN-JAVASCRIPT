@@ -90,3 +90,22 @@
 // }
 // const result = subtract(15,4)
 // console.log(result)
+
+//Object Destructuring 
+
+// const product = {
+//     name: "iPhone 16",
+//     price: 1200,
+//     brand: "Apple"
+// }
+// const {name, price} = product;
+// console.log(`${name} ${price}`)
+
+const product = {
+    name: "iPhone 16",
+    price: 1200,
+    brand: "Apple"
+};
+
+const {name, price} = product;
+console.log(`${name} ${price}`)
