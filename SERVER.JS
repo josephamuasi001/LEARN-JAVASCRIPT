@@ -22,3 +22,10 @@
 // console.log(typeof deliveryDate)
 
 
+function multiply(a, b) {
+    return a * b
+}
+
+const result = multiply(6, 7)
+
+console.log(result)
