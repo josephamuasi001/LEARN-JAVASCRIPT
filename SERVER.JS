@@ -32,3 +32,13 @@
 
 
 // Arrays
+const products = [
+    "iPhone 16",
+    "HP Laptop",
+    "Samsung Tablet"
+]
+
+console.log(products)
+products.push("Airpods Pro")
+console.log(products.length)
+console.log(products.includes("HP Laptop"))
