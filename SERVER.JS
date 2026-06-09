@@ -57,4 +57,13 @@
 // customer.city = "Accra"
 // console.log(customer)
 
-//
+//Loops
+const products = [
+    "iPhone 16",
+    "HP Laptop",
+    "Samsung Tablet"
+];
+
+for (const product of products) {
+    console.log("Available Product: ", product)
+}
