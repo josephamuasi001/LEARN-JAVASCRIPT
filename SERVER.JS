@@ -85,8 +85,8 @@
 
 
 //Arrow Functions
-const subtract = (a, b) => {
-    return a-b;
-}
-const result = subtract(15,4)
-console.log(result)
+// const subtract = (a, b) => {
+//     return a-b;
+// }
+// const result = subtract(15,4)
+// console.log(result)
