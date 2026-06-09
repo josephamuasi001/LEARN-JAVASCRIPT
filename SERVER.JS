@@ -21,11 +21,14 @@
 // console.log(typeof discountCode)
 // console.log(typeof deliveryDate)
 
+// Functions
+// function multiply(a, b) {
+//     return a * b
+// }
 
-function multiply(a, b) {
-    return a * b
-}
+// const result = multiply(6, 7)
 
-const result = multiply(6, 7)
+// console.log(result)
 
-console.log(result)
+
+// Arrays
