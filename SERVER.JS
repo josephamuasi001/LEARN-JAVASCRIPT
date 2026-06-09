@@ -58,12 +58,27 @@
 // console.log(customer)
 
 //Loops
-const products = [
-    "iPhone 16",
-    "HP Laptop",
-    "Samsung Tablet"
-];
+// const products = [
+//     "iPhone 16",
+//     "HP Laptop",
+//     "Samsung Tablet"
+// ];
 
-for (const product of products) {
-    console.log("Available Product: ", product)
-}
+// for (const product of products) {
+//     console.log("Available Product: ", product)
+// }
+
+//Conditionals
+// const stock = 0;
+
+// if (stock > 0) {
+//     console.log("Products Available")
+// } else {
+//     console.log("Out of Stock")
+// }
+
+//ES6 Template Literals
+const customerName = "Roland";
+const product = "HP Laptop";
+
+console.log(`${customerName} purchased ${product}`)
