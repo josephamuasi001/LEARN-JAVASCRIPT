@@ -101,11 +101,23 @@
 // const {name, price} = product;
 // console.log(`${name} ${price}`)
 
-const product = {
-    name: "iPhone 16",
-    price: 1200,
-    brand: "Apple"
-};
+// const product = {
+//     name: "iPhone 16",
+//     price: 1200,
+//     brand: "Apple"
+// };
 
-const {name, price} = product;
-console.log(`${name} ${price}`)
+// const {name, price} = product;
+// console.log(`${name} ${price}`)
+
+//Spread Operator(...)
+const products = [
+    "iPhone 16",
+    "HP Laptop"
+];
+
+const updatedProducts = [
+    ...products,
+    "Samsung Tablet"
+]
+console.log(updatedProducts)
