@@ -111,13 +111,15 @@
 // console.log(`${name} ${price}`)
 
 //Spread Operator(...)
-const products = [
-    "iPhone 16",
-    "HP Laptop"
-];
+// const products = [
+//     "iPhone 16",
+//     "HP Laptop"
+// ];
 
-const updatedProducts = [
-    ...products,
-    "Samsung Tablet"
-]
-console.log(updatedProducts)
+// const updatedProducts = [
+//     ...products,
+//     "Samsung Tablet"
+// ]
+// console.log(updatedProducts)
+
+// Modules (import and export)
