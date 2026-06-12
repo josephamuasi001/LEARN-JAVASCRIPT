@@ -123,3 +123,30 @@
 // console.log(updatedProducts)
 
 // Modules (import and export)
+
+
+
+
+//Promise
+
+const orderPromise = new Promise((resolve, reject) => {
+    const orderPlaced = false;
+
+    if(orderPlaced) {
+        resolve("Order Confirmed");
+    } else {
+        reject("Order Cancelled");
+    }
+})
+
+
+
+orderPromise 
+
+    .then(message => {
+        console.log(message);
+    })
+    .catch(error => {
+        console.log(error);
+    }) ;
+    
