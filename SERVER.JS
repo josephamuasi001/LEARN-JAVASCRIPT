@@ -129,24 +129,44 @@
 
 //Promise
 
-const orderPromise = new Promise((resolve, reject) => {
-    const orderPlaced = false;
+// const orderPromise = new Promise((resolve, reject) => {
+//     const orderPlaced = false;
 
-    if(orderPlaced) {
-        resolve("Order Confirmed");
+//     if(orderPlaced) {
+//         resolve("Order Confirmed");
+//     } else {
+//         reject("Order Cancelled");
+//     }
+// })
+
+// orderPromise 
+
+//     .then(message => {
+//         console.log(message);
+//     })
+//     .catch(error => {
+//         console.log(error);
+//     }) ;
+    
+
+const userPromise = new Promise((resolve, reject) => {
+    const userFound = true;
+
+    if(userFound) {
+        resolve({
+            name: "Roland",
+            role: "Admin"
+        });
     } else {
-        reject("Order Cancelled");
+        reject("User Not Found");
     }
-})
+});
 
 
-
-orderPromise 
-
+userPromise
     .then(message => {
-        console.log(message);
+        console.log(`${name} is an ${role}`);
     })
     .catch(error => {
         console.log(error);
-    }) ;
-    
+    })
